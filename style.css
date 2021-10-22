@@ -1,0 +1,19 @@
+.flag {
+    margin: 1rem;
+}
+
+.vertical {
+    width: 75px;
+    height: 150px;
+    float: left;
+}
+
+.blue {
+    background-color: blue;
+}
+.red {
+    background-color: red;
+}
+.white {
+    background-color: white;
+}
