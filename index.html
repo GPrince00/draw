@@ -12,11 +12,45 @@
 <body>
     <h1>Draw tutorials</h1>
     <h3>If you want to know how to draw a flag using HTML and CSS, take a look at these tutorials</h3>
+    <!-- France Tutorial  -->
+    <h4>France Flag</h4>
     <div class="flag">
         <div class="blue vertical"></div>
         <div class="white vertical"></div>
         <div class="red vertical"></div>
     </div>
+    <p>This is what goes on HTML:</p>
+    <pre><code>
+    &lt;div class="flag">
+        &lt;div class="blue vertical">&lt;/div>
+        &lt;div class="white vertical">&lt;/div>
+        &lt;div class="red vertical">&lt;/div>
+    &lt;/div>
+    </code></pre>
+    <p>This is what goes on CSS:</p>
+    <pre><code>
+    .flag {
+        margin: 1rem;
+        display: flex;
+    }
+    
+    .vertical {
+        width: 75px;
+        height: 150px;
+        float: left;
+    }
+    
+    .blue {
+        background-color: blue;
+    }
+    .red {
+        background-color: red;
+    }
+    .white {
+        background-color: white;
+    }
+    </code></pre>
+    <!-- France Tutorial  -->
 </body>
 
 </html>
