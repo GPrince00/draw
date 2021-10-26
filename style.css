@@ -1,9 +1,17 @@
 h1, h2, h3, h4, p, a {
     font-family: 'Roboto';
 }
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
 .flag {
     margin: 1rem;
     display: flex;
+    border: 1px solid black; 
+    width: 225px;
 }
 
 .vertical {
@@ -11,13 +19,13 @@ h1, h2, h3, h4, p, a {
     height: 150px;
     float: left;
 }
+.flagLink {
+    display: flex;
+    align-items: center;
+}
 
-.blue {
-    background-color: blue;
-}
-.red {
-    background-color: red;
-}
-.white {
-    background-color: white;
+img {
+    width: 2rem;
+    height: 2rem;
+    margin-right: 0.5rem;
 }
