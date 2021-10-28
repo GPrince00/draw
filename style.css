@@ -35,10 +35,20 @@ a {
   background-color: red;
 }
 
+.horizontalStyle {
+  display: flex;
+  flex-direction: column;
+}
+
 .vertical {
   width: 75px;
   height: 150px;
   float: left;
+}
+
+.horizontal {
+  width: 225px;
+  height: 50px;
 }
 
 .flagLink {
