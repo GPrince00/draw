@@ -40,17 +40,10 @@ a {
   height: 150px;
   float: left;
 }
+
 .flagLink {
   display: flex;
   align-items: center;
-}
-
-.flagLink:hover {
-  color: blue;
-}
-
-.backButton:hover {
-  color: blue;
 }
 
 img {
