@@ -5,10 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../style.css" />
-    <link rel="shortcut icon" href="../assets/franceFavicon.png" />
-    <title>France</title>
+    <link rel="shortcut icon" href="../assets/japanFavicon.png" />
+    <title>Japan</title>
   </head>
-
   <body style="display: inline-flexbox">
     <a href="../index.html" class="backButton">Back</a>
     <h1>Draw tutorials</h1>
@@ -16,35 +15,35 @@
       If you want to know how to draw a flag using HTML and CSS, take a look at
       these tutorials
     </h3>
-    <h4>France Flag</h4>
+    <h4>Japan Flag</h4>
     <div class="flag">
-      <div class="vertical" style="background-color: blue"></div>
-      <div class="vertical" style="background-color: white"></div>
-      <div class="vertical" style="background-color: red"></div>
+      <div class="japanContainer">
+        <div class="japanDot"></div>
+      </div>
     </div>
     <p>This is what goes on HTML:</p>
     <pre><code>    &lt;div>
-        &lt;div class="blue vertical">&lt;/div>
-        &lt;div class="white vertical">&lt;/div>
-        &lt;div class="red vertical">&lt;/div>
+        &lt;div class="japanContainer">
+            &lt;div class="japanDot">
+        &lt;/div>
     &lt;/div>
     </code></pre>
     <p>This is what goes on CSS:</p>
-    <pre><code>    .vertical {
-        width: 75px;
+    <pre><code>    .japanContainer {
+        width: 225px;
         height: 150px;
-        float: left;
-    }
-    
-    .blue {
-        background-color: blue;
-    }
-    .red {
-        background-color: red;
-    }
-    .white {
         background-color: white;
-    }
+        justify-content: center;
+        align-items: center;
+        display: flex;
+      }
+      
+      .japanDot {
+        width: 40px;
+        height: 40px;
+        border-radius: 20px;
+        background-color: red;
+      }
     </code></pre>
   </body>
 </html>
