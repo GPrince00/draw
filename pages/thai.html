@@ -4,22 +4,26 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Russia</title>
+    <title>Thai</title>
     <link rel="stylesheet" href="../style.css" />
-    <link rel="shortcut icon" href="../assets/russiaFavicon.png" />
+    <link rel="shortcut icon" href="../assets/thaiFavicon.jpg" />
   </head>
   <body>
     <a href="../index.html">Back</a>
-    <h1>Russia flag tutorial</h1>
+    <h1>Thai flag tutorial</h1>
     <div class="flag horizontalStyle">
-      <div class="horizontal" style="background-color: white"></div>
-      <div class="horizontal" style="background-color: blue"></div>
-      <div class="horizontal" style="background-color: red"></div>
+      <div class="thaiFlag" style="background-color: red;"></div>
+      <div class="thaiFlag" style="background-color: white;"></div>
+      <div class="thaiFlag" style="background-color: blue; height: 40px;"></div>
+      <div class="thaiFlag" style="background-color: white;"></div>
+      <div class="thaiFlag" style="background-color: red;"></div>
     </div>
     <p>This is what goes on HTML:</p>
     <pre><code>    &lt;div class="horizontalStyle"> 
+        &lt;div class="red horizontal">&lt;/div>
         &lt;div class="white horizontal">&lt;/div>
         &lt;div class="blue horizontal">&lt;/div>
+        &lt;div class="white horizontal">&lt;/div>
         &lt;div class="red horizontal">&lt;/div>
     &lt;/div>
     </code></pre>
@@ -29,9 +33,9 @@
         flex-direction: column;
     }
     
-    .horizontal {
-        width: 225px;
-        height: 50px;
+    .thaiFlag {
+      width: 225px;
+      height: 30px;
     }
     
     .white {

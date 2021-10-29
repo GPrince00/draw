@@ -1,34 +1,60 @@
-h1, h2, h3, h4, p, a {
-    font-family: 'Roboto';
+h1,
+h2,
+h3,
+h4,
+p,
+a {
+  font-family: "Roboto";
 }
 
 a {
-    text-decoration: none;
-    color: black;
+  text-decoration: none;
+  color: black;
 }
 
-.flag {
-    margin: 1rem;
-    display: flex;
-    border: 1px solid black; 
-    width: 225px;
+.flag {  
+  border: 1px solid black;
+  margin: 1rem;
+  display: flex;
+  width: 225px;
+}
+
+.japanContainer {
+  width: 225px;
+  height: 150px;
+  background-color: white;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.japanDot {
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: red;
 }
 
 .horizontalStyle {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 
 .vertical {
-    width: 75px;
-    height: 150px;
-    float: left;
+  width: 75px;
+  height: 150px;
+  float: left;
 }
 
 .horizontal {
-    width: 225px;
-    height: 50px;
+  width: 225px;
+  height: 50px;
+}
+
+.thaiFlag {
+  width: 225px;
+  height: 30px;
 }
 
 .halfStyle {
@@ -43,12 +69,36 @@ a {
 
 
 .flagLink {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 img {
-    width: 2rem;
-    height: 2rem;
-    margin-right: 0.5rem;
+  width: 2rem;
+  height: 2rem;
+  margin-right: 0.5rem;
+}
+
+.englandContainer {
+  border: 1px solid black;
+  margin: 1rem;
+  display: flex;
+  width: 225px;
+  height: 150px;
+}
+
+.white_section {
+  width: 100%;
+  height: 45%;
+}
+
+.red_cross {
+  width: 100%;
+  height: 10%;
+  background-color: red;
+}
+
+.right {
+  width: 45%;
+  height: 100%;
 }
