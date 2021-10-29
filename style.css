@@ -51,6 +51,11 @@ a {
   height: 50px;
 }
 
+.thaiFlag {
+  width: 225px;
+  height: 30px;
+}
+
 .flagLink {
   display: flex;
   align-items: center;
