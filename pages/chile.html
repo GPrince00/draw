@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="shortcut icon" href="../assets/chile.jpg">
+    <title>CHILE</title>
+</head>
+
+<body style="display: inline-flexbox;">
+    <a href="../index.html">Back</a>
+    <h1>Chile Flag Tutorial</h1>
+    <div class='flag-flex'>
+        <div class='horizontal'>
+            <div class='vertical-ch' style='background-color: blue;'>
+                <i class='star'></i>
+            </div>
+        </div>
+        <div class='horizontal' style='background-color: #DB1A32;''></div>
+</div>
+    <p>This is what goes on HTML:</p>
+    <pre><code>    &lt;div class='flag-flex'>
+        &lt;div class="horizontal">&lt;/div>
+            &lt;div class="vertical-ch" style="background-color: blue;">
+                &lt;i class="star">&lt;/i>
+            &lt;/div>
+        &lt;div class="horizontal" style="background-color: #DB1A32;">&lt;/div>
+    &lt;/div>
+    </code></pre>
+    <p>This is what goes on CSS:</p>
+    <pre><code>    .flag-flex {
+        border: 1px solid black;
+        margin: 1rem;
+        width: 225px;
+        display: flex;
+        flex-direction: column;
+    }
+    .horizontal {
+        width: 225px;
+        height: 75px;
+    }
+    .vertical-ch {
+        width: 75px;
+        height: 112.5px;
+    }
+    
+    .star {
+        position: relative;
+        font-size: 24px;
+        width: 0;
+        height: 0;
+        top: -.4em;
+    
+        margin-left: .9em;
+        margin-right: .9em;
+        margin-bottom: 1.2em;
+        
+        border-right:  .3em solid transparent;
+        border-bottom: .7em  solid white;
+        border-left:   .3em solid transparent;
+    }
+    .star::before, .star::after {
+        content: '';
+        
+        display: block;
+        width: 0;
+        height: 0;
+        
+        position: absolute;
+        top: 1.75em;
+        left: -1em;
+        
+        border-right:  1em solid transparent;
+        border-bottom: .7em  solid white;
+        border-left:   1em solid transparent;
+        
+        transform: rotate(-35deg);
+    }
+    .star::after {  
+        transform: rotate(35deg);
+    }
+    
+    </code></pre>
+</body>
+
+</html>
