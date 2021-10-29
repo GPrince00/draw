@@ -17,6 +17,17 @@ a {
   margin: 1rem;
   display: flex;
   width: 225px;
+  display: flex;
+  flex-direction: column;
+}
+
+.flag-flex {  
+  border: 1px solid black;
+  margin: 1rem;
+  display: flex;
+  width: 225px;
+  display: flex;
+  flex-direction: column;
 }
 
 .japanContainer {
