@@ -17,6 +17,17 @@ a {
   margin: 1rem;
   display: flex;
   width: 225px;
+  display: flex;
+  flex-direction: column;
+}
+
+.flag-flex {  
+  border: 1px solid black;
+  margin: 1rem;
+  display: flex;
+  width: 225px;
+  display: flex;
+  flex-direction: column;
 }
 
 .japanContainer {
@@ -101,4 +112,48 @@ img {
 .right {
   width: 45%;
   height: 100%;
+}
+.vertical-ch {
+  width: 70px;
+  height: 50px;
+}
+#chile {
+  height: 22px;
+}
+.star {
+  position: relative;
+  font-size: 20px;
+  width: 0;
+  height: 0;
+  top: -.8em;
+  left: .45em;
+
+  margin-left: .9em;
+  margin-right: .9em;
+  margin-bottom: 1.2em;
+  
+  border-right:  .3em solid transparent;
+  border-bottom: .7em  solid white;
+  border-left:   .3em solid transparent;
+}
+.star::before, .star::after {
+  content: '';
+  
+  display: block;
+  width: 0;
+  height: 0;
+  
+  position: absolute;
+  top: 1.75em;
+  left: -1em;
+  
+  border-right:  1em solid transparent;
+  border-bottom: .7em  solid white;
+  border-left:   1em solid transparent;
+  
+  transform: rotate(-35deg);
+}
+    
+.star::after {  
+  transform: rotate(35deg);
 }
