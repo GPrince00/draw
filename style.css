@@ -19,6 +19,7 @@ a {
     flex-direction: column;
 }
 
+
 .vertical {
     width: 75px;
     height: 150px;
@@ -29,6 +30,17 @@ a {
     width: 225px;
     height: 50px;
 }
+
+.halfStyle {
+    display: flex;
+    flex-direction: column;
+}
+
+.half {
+    width: 225px;
+    height: 75px;
+}
+
 
 .flagLink {
     display: flex;
