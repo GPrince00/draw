@@ -12,10 +12,10 @@ a {
   color: black;
 }
 
-.flag {
+.flag {  
+  border: 1px solid black;
   margin: 1rem;
   display: flex;
-  border: 1px solid black;
   width: 225px;
 }
 
