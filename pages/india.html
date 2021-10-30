@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="shortcut icon" href="../assets/indiaFavicon.png">
+    <title>India</title>
+</head>
+
+<body style="display: inline-flexbox;">
+    <a href="/index.html">Back</a>
+    <h1>Draw tutorials</h1>
+    <h4>India Flag</h4>
+    <div class="flag horizontalStyle">
+        <div class="horizontal" style="background-color: #FF9933"></div>
+        <div class="horizontal" style="background-color: #FFFFFF">
+            <div class="wheel">
+                <span class="line"></span>
+                <span class="line"></span>
+                <span class="line"></span>
+                <span class="line"></span>
+                <span class="line"></span>
+                <span class="line"></span>
+                <span class="line"></span>
+                <span class="line"></span>
+                <span class="line"></span>
+                <span class="line"></span>
+                <span class="line"></span>
+                <span class="line"></span>
+            </div>
+        </div>
+        <div class="horizontal" style="background-color: #138808"></div>
+    </div>
+    <p>This is what goes on HTML:</p>
+    <pre><code>      &lt;div class="horizontalStyle">
+        &lt;div class="saffron horizontal">&lt;/div>
+        &lt;div class="white horizontal>
+        &lt;div class="wheel>
+        &lt;span class="line">&lt;/span>
+        &lt;span class="line">&lt;/span>
+        &lt;span class="line">&lt;/span>
+        &lt;span class="line">&lt;/span>
+        &lt;span class="line">&lt;/span>
+        &lt;span class="line">&lt;/span>
+        &lt;span class="line">&lt;/span>
+        &lt;span class="line">&lt;/span>
+        &lt;span class="line">&lt;/span>
+        &lt;span class="line">&lt;/span>
+        &lt;span class="line">&lt;/span>
+        &lt;span class="line">&lt;/span>
+        &lt;/div>
+        &lt;/div>
+        &lt;div class="green horizontal">&lt;/div>
+    &lt;/div>
+    </code></pre>
+    <p>This is what goes on CSS:</p>
+    <pre><code>   .horizontalStyle {
+        display: flex;
+        flex-direction: column;
+    }
+    .horizontal {
+        width: 225px;
+        height: 50px;
+    }
+    .saffron {
+        background-color: #FF9933;
+    }
+    .white {
+        background-color: #FFFFFF;
+    }
+    .green {
+        background-color: #138808;
+    }
+    .wheel {
+        height: 43px;
+        width: 43px;
+        border: 1px solid darkblue;
+        border-radius: 45px;
+        position: relative;
+        margin: 0 auto
+    }
+    .wheel .line {
+        height: 100%;
+        width: 1px;
+        display: inline-block;
+        position: absolute;
+        left: 50%;
+        background: darkblue;
+    }
+    .line:nth-child(1) {
+        transform: rotate(15deg)
+    }
+    .line:nth-child(2) {
+        transform: rotate(30deg)
+    }
+    .line:nth-child(3) {
+        transform: rotate(45deg)
+    }
+    .line:nth-child(4) {
+        transform: rotate(60deg)
+    }
+    .line:nth-child(5) {
+        transform: rotate(75deg)
+    }
+    .line:nth-child(6) {
+        transform: rotate(90deg)
+    }
+    .line:nth-child(7) {
+        transform: rotate(105deg)
+    }
+    .line:nth-child(8) {
+        transform: rotate(120deg)
+    }
+    .line:nth-child(9) {
+        transform: rotate(135deg)
+    }
+    .line:nth-child(10) {
+        transform: rotate(150deg)
+    }
+    .line:nth-child(11) {
+        transform: rotate(165deg)
+    }
+    .line:nth-child(12) {
+        transform: rotate(180deg)
+    }
+    
+    </code></pre>
+</body>
+
+</html>
