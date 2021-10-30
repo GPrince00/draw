@@ -2,7 +2,7 @@
 
 ## Welcome!
 
-You are encouraged to contribute to this repository during the hacktoberfest event! 🎉
+You are encouraged to contribute to this repository during the hacktoberfest event! 🎉 Don't forget to start ⭐ this project ❤️
 
 ## Follow these steps:
 
