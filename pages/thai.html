@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Thai</title>
+    <link rel="stylesheet" href="../style.css" />
+    <link rel="shortcut icon" href="../assets/thaiFavicon.jpg" />
+  </head>
+  <body>
+    <a href="../index.html">Back</a>
+    <h1>Thai flag tutorial</h1>
+    <div class="flag horizontalStyle">
+      <div class="thaiFlag" style="background-color: red;"></div>
+      <div class="thaiFlag" style="background-color: white;"></div>
+      <div class="thaiFlag" style="background-color: blue; height: 40px;"></div>
+      <div class="thaiFlag" style="background-color: white;"></div>
+      <div class="thaiFlag" style="background-color: red;"></div>
+    </div>
+    <p>This is what goes on HTML:</p>
+    <pre><code>    &lt;div class="horizontalStyle"> 
+        &lt;div class="red horizontal">&lt;/div>
+        &lt;div class="white horizontal">&lt;/div>
+        &lt;div class="blue horizontal">&lt;/div>
+        &lt;div class="white horizontal">&lt;/div>
+        &lt;div class="red horizontal">&lt;/div>
+    &lt;/div>
+    </code></pre>
+    <p>This is what goes on CSS:</p>
+    <pre><code>    .horizontalStyle {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .thaiFlag {
+      width: 225px;
+      height: 30px;
+    }
+    
+    .white {
+        background-color: white;
+    }
+    .blue {
+        background-color: blue;
+    }
+    .red {
+        background-color: red;
+    }
+    </code></pre>
+  </body>
+</html>
