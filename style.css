@@ -12,10 +12,10 @@ a {
   color: black;
 }
 
-.flag {
+.flag {  
+  border: 1px solid black;
   margin: 1rem;
   display: flex;
-  border: 1px solid black;
   width: 225px;
 }
 
@@ -40,6 +40,7 @@ a {
   flex-direction: column;
 }
 
+
 .vertical {
   width: 75px;
   height: 150px;
@@ -51,6 +52,22 @@ a {
   height: 50px;
 }
 
+.thaiFlag {
+  width: 225px;
+  height: 30px;
+}
+
+.halfStyle {
+    display: flex;
+    flex-direction: column;
+}
+
+.half {
+    width: 225px;
+    height: 75px;
+}
+
+
 .flagLink {
   display: flex;
   align-items: center;
@@ -60,4 +77,28 @@ img {
   width: 2rem;
   height: 2rem;
   margin-right: 0.5rem;
+}
+
+.englandContainer {
+  border: 1px solid black;
+  margin: 1rem;
+  display: flex;
+  width: 225px;
+  height: 150px;
+}
+
+.white_section {
+  width: 100%;
+  height: 45%;
+}
+
+.red_cross {
+  width: 100%;
+  height: 10%;
+  background-color: red;
+}
+
+.right {
+  width: 45%;
+  height: 100%;
 }
