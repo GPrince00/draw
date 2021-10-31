@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Estonia</title>
+    <link rel="stylesheet" href="../style.css" />
+    <link rel="shortcut icon" href="../assets/estonia.png" />
+  </head>
+  <body>
+    <a href="../index.html">Back</a>
+    <h1>Estonia flag tutorial</h1>
+    <div class="flag horizontalStyle">
+      <div class="horizontal" style="background-color: #0073cf"></div>
+      <div class="horizontal" style="background-color: black"></div>
+      <div class="horizontal" style="background-color: white"></div>
+    </div>
+    <p>This is what goes on HTML:</p>
+    <pre><code>    &lt;div class="horizontalStyle"> 
+        &lt;div class="blue horizontal">&lt;/div>
+        &lt;div class="black horizontal">&lt;/div>
+        &lt;div class="white horizontal">&lt;/div>
+    &lt;/div>
+    </code></pre>
+    <p>This is what goes on CSS:</p>
+    <pre><code>    .horizontalStyle {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .horizontal {
+        width: 225px;
+        height: 50px;
+    }
+    
+    .white {
+        background-color: white;
+    }
+    .blue {
+        background-color: #0073cf;
+    }
+    .black {
+      background-color: black;
+  }
+    </code></pre>
+  </body>
+</html>
