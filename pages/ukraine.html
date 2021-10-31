@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ukraine</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="shortcut icon" href="../assets/UkraineFavicon.png">
+</head>
+<body>
+    <a href="/index.html">Back</a>
+    <h1>Ukraine flag tutorial</h1>
+    <div class="flag halfStyle">
+        <div class="half" style="background-color: rgb(0, 81, 255);"></div>
+        <div class="half" style="background-color: yellow;"></div> 
+    </div>
+    <p>This is what goes on HTML:</p>
+    <pre><code>    &lt;div class="halfStyle"> 
+        &lt;div class="blue half">&lt;/div>
+        &lt;div class="yellow half">&lt;/div>
+    &lt;/div>
+    </code></pre>
+    <p>This is what goes on CSS:</p>
+    <pre><code>    .halfStyle {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .half {
+        width: 225px;
+        height: 75px;
+    }
+    
+    .blue {
+        background-color: blue;
+    }
+
+    .yellow {
+        background-color: yellow;
+    }
+    </code></pre>
+</body>
+</html>
