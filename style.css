@@ -171,3 +171,9 @@ img {
   align-items: center;
   display: flex;
 }
+
+
+.green {
+  height: 225px;
+  width: 100%;
+}

@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css" />
+    <link rel="shortcut icon" href="../assets/brazilFavicon.png" />
+    <title>Brazil</title>
+</head>
+
+<body style="display: inline-flexbox">
+    <a href="../index.html">Back</a>
+    <h1>Brazil Flag Tutorial</h1>
+    <div class="green">
+        <div class="yellow-top"></div>
+        <div class="yellow-bottom"></div>
+        <div class="azul-bg">
+            <div class="white"></div>
+            <div class="azul-bottom"></div>
+            <ul class="stars">
+                <li id="procion" class="star-1"></li>
+                <li id="alphard" class="star-2"></li>
+                <li id="muliphen" class="star-4"></li>
+                <li id="sirio" class="star-1"></li>
+                <li id="mirzam" class="star-2"></li>
+                <li id="wezen" class="star-2"></li>
+                <li id="adhara" class="star-3"></li>
+                <li id="canopus" class="star-1"></li>
+                <li id="gracus" class="star-2"></li>
+                <li id="palida" class="star-3"></li>
+                <li id="intrometida" class="star-4"></li>
+                <li id="mimosa" class="star-2"></li>
+                <li id="acrux" class="star-1"></li>
+                <li id="polaris-australis" class="star-5"></li>
+                <li id="tra-1" class="star-3"></li>
+                <li id="atria" class="star-2"></li>
+                <li id="tra-2" class="star-3"></li>
+                <li id="apollyon" class="star-3"></li>
+                <li id="sargas" class="star-2"></li>
+                <li id="denebakrab" class="star-3"></li>
+                <li id="girtab" class="star-3"></li>
+                <li id="shaula" class="star-2"></li>
+                <li id="wei" class="star-2"></li>
+                <li id="antares" class="star-1"></li>
+                <li id="graffias" class="star-3"></li>
+                <li id="dhanab-al-shuja" class="star-3"></li>
+                <li id="spica" class="star-1"></li>
+            </ul>
+        </div>
+    </div>
+    <p>This is what goes on HTML:</p>
+    <pre><code>  &lt;div class="green">
+        &lt;div class="yellow-top">&lt;/div>
+        &lt;div class="yellow-bottom">&lt;/div>
+        &lt;div class="azul-bg">
+            &lt;div class="white">&lt;/div>
+            &lt;div class="azul-bottom">&lt;/div>
+            &lt;ul class="stars">
+                &lt;li id="procion" class="star-1">&lt;/li>
+                &lt;li id="alphard" class="star-2">&lt;/li>
+                &lt;li id="muliphen" class="star-4">&lt;/li>
+                &lt;li id="sirio" class="star-1">&lt;/li>
+                &lt;li id="mirzam" class="star-2">&lt;/li>
+                &lt;li id="wezen" class="star-2">&lt;/li>
+                &lt;li id="adhara" class="star-3">&lt;/li>
+                &lt;li id="canopus" class="star-1">&lt;/li>
+                &lt;li id="gracus" class="star-2">&lt;/li>
+                &lt;li id="palida" class="star-3">&lt;/li>
+                &lt;li id="intrometida" class="star-4">&lt;/li>
+                &lt;li id="mimosa" class="star-2">&lt;/li>
+                &lt;li id="acrux" class="star-1">&lt;/li>
+                &lt;li id="polaris-australis" class="star-5">&lt;/li>
+                &lt;li id="tra-1" class="star-3">&lt;/li>
+                &lt;li id="atria" class="star-2">&lt;/li>
+                &lt;li id="tra-2" class="star-3">&lt;/li>
+                &lt;li id="apollyon" class="star-3">&lt;/li>
+                &lt;li id="sargas" class="star-2">&lt;/li>
+                &lt;li id="denebakrab" class="star-3">&lt;/li>
+                &lt;li id="girtab" class="star-3">&lt;/li>
+                &lt;li id="shaula" class="star-2">&lt;/li>
+                &lt;li id="wei" class="star-2">&lt;/li>
+                &lt;li id="antares" class="star-1">&lt;/li>
+                &lt;li id="graffias" class="star-3">&lt;/li>
+                &lt;li id="dhanab-al-shuja" class="star-3">&lt;/li>
+                &lt;li id="spica" class="star-1">&lt;/li>
+            &lt;/ul>
+        &lt;/div>
+    &lt;/div>
+    </code></pre>
+    <p>This is what goes on CSS:</p>
+    <pre><code>   .green {
+        width: 20em;
+        height: 14em;
+        background: #009C37;
+        top: 0;
+        left: 0;
+        font-size: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .yellow-top {
+        width: 1px;
+        height: 1px;
+        border: solid 8.3em transparent;
+        border-bottom: solid 5.3em #FEE000;
+        border-top-width: 0;
+        top: 1.7em;
+        left: 1.7em;
+    }
+
+    .yellow-bottom {
+        width: 1px;
+        height: 1px;
+        border: solid 8.3em transparent;
+        border-top: solid 5.3em #FEE000;
+        border-bottom-width: 0;
+        top: 7em;
+        left: 1.7em;
+    }
+
+    .azul-bg {
+        width: 7em;
+        height: 7em;
+        background: #002277;
+        border-radius: 50%;
+        position: absolute;
+        overflow: hidden;
+    }
+
+    .white {
+        width: 17em;
+        height: 17em;
+        background: #FFF;
+        border-radius: 50%;
+        position: absolute;
+        top: 2em;
+        left: -7em;
+    }
+
+    .azul-bottom {
+        width: 16em;
+        height: 16em;
+        background: #002277;
+        border-radius: 50%;
+        position: absolute;
+        top: 2.4em;
+        left: -6.5em;
+    }
+
+    .stars li {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        color: #FFF;
+        position: absolute;
+    }
+
+    .stars li:before {
+        content: "★";
+    }
+
+    .star-1:before {
+        font-size: 0.3em;
+    }
+
+    .star-2:before {
+        font-size: 0.25em;
+    }
+
+    .star-3:before {
+        font-size: 0.2em;
+    }
+
+    .star-4:before {
+        font-size: 0.14em;
+    }
+
+    .star-5:before {
+        font-size: 0.1em;
+    }
+
+    #procion {
+        top: 2.15em;
+        left: .5em
+    }
+
+    #alphard {
+        top: 2.85em;
+        left: 2em
+    }
+
+    #muliphen {
+        top: 3.3em;
+        left: 1.2em
+    }
+
+    #sirio {
+        top: 3.6em;
+        left: .8em
+    }
+
+    #mirzam {
+        top: 3.9em;
+        left: 0.46em
+    }
+
+    #wezen {
+        top: 3.92em;
+        left: 1.52em
+    }
+
+    #adhara {
+        top: 4.25em;
+        left: 1.43em
+    }
+
+    #canopus {
+        top: 4.65em;
+        left: 1.9em
+    }
+
+    #gracus {
+        top: 3.3em;
+        left: 3.4em
+    }
+
+    #palida {
+        top: 3.63em;
+        left: 2.95em
+    }
+
+    #intrometida {
+        top: 3.8em;
+        left: 3.23em
+    }
+
+    #mimosa {
+        top: 3.61em;
+        left: 3.72em
+    }
+
+    #acrux {
+        top: 4.35em;
+        left: 3.37em
+    }
+
+    #polaris-australis {
+        top: 5.4em;
+        left: 3.45em
+    }
+
+    #tra-1 {
+        top: 4.66em;
+        left: 4.13em
+    }
+
+    #atria {
+        top: 5.11em;
+        left: 4.39em
+    }
+
+    #tra-2 {
+        top: 4.76em;
+        left: 4.74em
+    }
+
+    #apollyon {
+        top: 5.38em;
+        left: 5.15em
+    }
+
+    #sargas {
+        top: 5.03em;
+        left: 5.13em
+    }
+
+    #denebakrab {
+        top: 4.67em;
+        left: 5.15em
+    }
+
+    #girtab {
+        top: 4.67em;
+        left: 5.48em
+    }
+
+    #shaula {
+        top: 4.54em;
+        left: 5.8em
+    }
+
+    #wei {
+        top: 4.27em;
+        left: 5.95em
+    }
+
+    #antares {
+        top: 3.95em;
+        left: 5.8em
+    }
+
+    #graffias {
+        top: 3.94em;
+        left: 6.35em
+    }
+
+    #dhanab-al-shuja {
+        top: 2.47em;
+        left: 4.22em
+    }
+
+    #spica {
+        top: 1.5em;
+        left: 4.43em
+    }
+    </code></pre>
+    <style>
+        .green {
+            width: 20em;
+            height: 14em;
+            background: #009C37;
+            top: 0;
+            left: 0;
+            font-size: 30px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .yellow-top {
+            width: 1px;
+            height: 1px;
+            border: solid 8.3em transparent;
+            border-bottom: solid 5.3em #FEE000;
+            border-top-width: 0;
+            top: 1.7em;
+            left: 1.7em;
+        }
+
+        .yellow-bottom {
+            width: 1px;
+            height: 1px;
+            border: solid 8.3em transparent;
+            border-top: solid 5.3em #FEE000;
+            border-bottom-width: 0;
+            top: 7em;
+            left: 1.7em;
+        }
+
+        .azul-bg {
+            width: 7em;
+            height: 7em;
+            background: #002277;
+            border-radius: 50%;
+            position: absolute;
+            overflow: hidden;
+        }
+
+        .white {
+            width: 17em;
+            height: 17em;
+            background: #FFF;
+            border-radius: 50%;
+            position: absolute;
+            top: 2em;
+            left: -7em;
+        }
+
+        .azul-bottom {
+            width: 16em;
+            height: 16em;
+            background: #002277;
+            border-radius: 50%;
+            position: absolute;
+            top: 2.4em;
+            left: -6.5em;
+        }
+
+        .stars li {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            color: #FFF;
+            position: absolute;
+        }
+
+        .stars li:before {
+            content: "★";
+        }
+
+        .star-1:before {
+            font-size: 0.3em;
+        }
+
+        .star-2:before {
+            font-size: 0.25em;
+        }
+
+        .star-3:before {
+            font-size: 0.2em;
+        }
+
+        .star-4:before {
+            font-size: 0.14em;
+        }
+
+        .star-5:before {
+            font-size: 0.1em;
+        }
+
+        #procion {
+            top: 2.15em;
+            left: .5em
+        }
+
+        #alphard {
+            top: 2.85em;
+            left: 2em
+        }
+
+        #muliphen {
+            top: 3.3em;
+            left: 1.2em
+        }
+
+        #sirio {
+            top: 3.6em;
+            left: .8em
+        }
+
+        #mirzam {
+            top: 3.9em;
+            left: 0.46em
+        }
+
+        #wezen {
+            top: 3.92em;
+            left: 1.52em
+        }
+
+        #adhara {
+            top: 4.25em;
+            left: 1.43em
+        }
+
+        #canopus {
+            top: 4.65em;
+            left: 1.9em
+        }
+
+        #gracus {
+            top: 3.3em;
+            left: 3.4em
+        }
+
+        #palida {
+            top: 3.63em;
+            left: 2.95em
+        }
+
+        #intrometida {
+            top: 3.8em;
+            left: 3.23em
+        }
+
+        #mimosa {
+            top: 3.61em;
+            left: 3.72em
+        }
+
+        #acrux {
+            top: 4.35em;
+            left: 3.37em
+        }
+
+        #polaris-australis {
+            top: 5.4em;
+            left: 3.45em
+        }
+
+        #tra-1 {
+            top: 4.66em;
+            left: 4.13em
+        }
+
+        #atria {
+            top: 5.11em;
+            left: 4.39em
+        }
+
+        #tra-2 {
+            top: 4.76em;
+            left: 4.74em
+        }
+
+        #apollyon {
+            top: 5.38em;
+            left: 5.15em
+        }
+
+        #sargas {
+            top: 5.03em;
+            left: 5.13em
+        }
+
+        #denebakrab {
+            top: 4.67em;
+            left: 5.15em
+        }
+
+        #girtab {
+            top: 4.67em;
+            left: 5.48em
+        }
+
+        #shaula {
+            top: 4.54em;
+            left: 5.8em
+        }
+
+        #wei {
+            top: 4.27em;
+            left: 5.95em
+        }
+
+        #antares {
+            top: 3.95em;
+            left: 5.8em
+        }
+
+        #graffias {
+            top: 3.94em;
+            left: 6.35em
+        }
+
+        #dhanab-al-shuja {
+            top: 2.47em;
+            left: 4.22em
+        }
+
+        #spica {
+            top: 1.5em;
+            left: 4.43em
+        }
+    </style>
+</body>
+
+</html>
