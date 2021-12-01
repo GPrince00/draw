@@ -19,6 +19,29 @@ a {
   width: 225px;
 }
 
+.flagsContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(11rem, 11rem));
+}
+
+.flagLink {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid black;
+  border-radius: 4px;
+  margin: 0 1rem 1rem 1rem;
+  padding: 1rem;
+  text-align: center;
+}
+
+.flagIcon {
+  width: 4rem;
+  height: 4rem;
+}
+
+.flagName {
+  margin: 0;
+}
 .japanContainer {
   width: 225px;
   height: 150px;
@@ -71,12 +94,6 @@ a {
 .flagLink {
   display: flex;
   align-items: center;
-}
-
-img {
-  width: 2rem;
-  height: 2rem;
-  margin-right: 0.5rem;
 }
 
 .englandContainer {
@@ -171,7 +188,6 @@ img {
   align-items: center;
   display: flex;
 }
-
 
 .green {
   height: 225px;
